@@ -71,9 +71,17 @@ python3 -m http.server 8000
 
 这样两边都是就近访问，网站内容完全一样。
 
-### 更新文章
+### 更新文章（一键发布）
 
-改完文件后，在 GitHub 仓库里重新上传改过的文件（新文章的 `.md` 和 `posts/posts.json`）即可，一两分钟后生效。
+博客地址：https://kristalks.github.io （仓库：github.com/Kristalks/kristalks.github.io）
+
+写完文章或改完任何文件后，在博客文件夹里运行：
+
+```bash
+./publish.sh "新文章：标题"
+```
+
+引号里是这次更新的说明，可以不写。一两分钟后网站自动更新。
 
 ## 个性化
 
