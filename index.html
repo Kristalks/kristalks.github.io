@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kris 讲明白了</title>
+  <meta name="description" content="把复杂的科技，讲成你听得懂的话。Kris 的个人科技博客。">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js"></script>
+</head>
+<body>
+  <div id="intro" class="intro" aria-hidden="true">
+    <div class="intro-inner">
+      <div class="intro-term"><span class="p">$</span><span id="intro-type"></span><span class="intro-caret"></span>
+        <div id="intro-lines" class="intro-lines"></div>
+      </div>
+      <div class="intro-title"><span class="logo-mark">K</span><span class="intro-name">Kris <span class="grad">讲明白了</span></span></div>
+    </div>
+    <div class="intro-skip">CLICK TO SKIP</div>
+  </div>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="index.html"><span class="logo-mark">K</span><span class="logo-text">Kris 讲明白了<span class="cursor"></span></span></a>
+      <nav>
+        <a href="index.html" class="active">文章</a>
+        <a href="about.html">关于</a>
+        <button class="theme-btn" title="切换深色/浅色" aria-label="切换主题">◐</button>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker"><span class="dot"></span>持续更新中 · AI / 编程 / 数码</div>
+      <h1>把复杂的科技，<br><span class="grad">讲成你听得懂的话。</span></h1>
+      <p>我是 Kris。这里不追热点、不堆术语，只把一件事拆开、讲透、讲明白。</p>
+      <div id="stats" class="stats"></div>
+    </section>
+
+    <div class="controls">
+      <div class="search-box"><input id="search" class="search" type="search" placeholder="搜索文章…"></div>
+      <div id="tags" class="tags"></div>
+    </div>
+
+    <ul id="post-list" class="post-list"></ul>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap"><span>© 2026 Kris 讲明白了</span><span>built with HTML + Markdown</span></div>
+  </footer>
+
+  <script>runIntro(); renderHome();</script>
+</body>
+</html>
